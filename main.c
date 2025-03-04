@@ -41,4 +41,8 @@ void loop()
   digitalWrite(pin12, LOW);
   digitalWrite(pin13, HIGH);
   delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(pin11, HIGH);
+  digitalWrite(pin12, HIGH);
+  digitalWrite(pin13, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
 }
